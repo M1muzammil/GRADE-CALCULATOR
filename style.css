@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(185, 201, 158); */
+}
+
+.heading{
+font-family: 'Courier New', Courier, monospace;
+height: 50px;
+background-color: greenyellow;
+display: flex;
+justify-content: center;
+width: 360px;
+
+}
+.bg{
+    background-color: rgb(228, 251, 185);
+}
+.table{
+    margin: 1px solid black;
+    border: 2px solid black;
+    width: 360px;
+    height: 400px;
+    background-color: aquamarine;
+    top: 50%;
+    left: 50%;
+    /* position: absolute; */
+    /* transform: translate(-50%, -50%); */
+}
+.tt{
+    border: 2px solid blue;
+    width: 70%;
+    background-color: pink;
+}
+.tt1{
+    border: 2px solid blue;
+    width: 30px;
+}
+.button{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    /* margin: 10px; */
+    
+    
+    /* position: absolute; */
+    
+}
+.bb{
+    height: 4em;
+    width: 360px;
+    background-color: blue;
+    color: white;
+    
+}
+button > a {
+    text-decoration: none;
+    color: white;
+}
+.rokbeta{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+     
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+}
